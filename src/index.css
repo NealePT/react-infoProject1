@@ -52,6 +52,14 @@ code {
 
 /* Main styling */
 
+.Main {
+  background-image: url("../public/logo512.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 30%;
+}
+
 .Main > h1 {
   margin: 0;
   padding: 60px 30px 20px 50px;
@@ -60,9 +68,14 @@ code {
 
 .Main > ul {
   color: #FFFFFF;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .Main li {
   margin: 20px;
+}
+
+.Main li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
 }
