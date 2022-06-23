@@ -20,8 +20,30 @@ code {
 
 .Navbar {
   background-color: #21222A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .titleSection {
   display: flex;
+  align-items: center;
+  color: #61DAFB;
+  margin-left: 50px;
+}
+
+.titleSection > img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.titleSection > h3 {
+  font-size: 2rem;
+}
+
+.Navbar > h4 {
+  color: #DEEBF8;
+  margin: 20px 50px;
+  font-size: 1.5rem;
 }
