@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: Inter, sans-serif;
 }
 
 code {
@@ -47,3 +48,6 @@ code {
   margin: 20px 50px;
   font-size: 1.5rem;
 }
+
+/* Main styling */
+
